@@ -1,0 +1,6 @@
+{
+  "name": "Aura Interiors",
+  "description": "Premium luxury interior design studio website featuring clean architectural layouts, glassmorphism UI, a portfolio grid with before/after slider, interactive process timeline, and responsive layouts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-gold-50: #fbf8f3;
+  --color-gold-100: #f4edd9;
+  --color-gold-200: #e5d7af;
+  --color-gold-300: #d6ba84;
+  --color-gold-400: #c9a15f;
+  --color-gold-450: #bf9855;
+  --color-gold-500: #b88a44;
+  --color-gold-600: #a17436;
+  --color-gold-700: #865f2c;
+  --color-gold-800: #6c4c23;
+  --color-gold-900: #573e1f;
+}
+
+/* Custom scrollbar configurations for ultimate premium spacing aesthetics */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 161, 95, 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 161, 95, 0.4);
+}
+
+/* Smooth Scrolling context */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
